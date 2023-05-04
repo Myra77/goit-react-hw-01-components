@@ -1,0 +1,12 @@
+.friends{
+    max-height: 80vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.friendList {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

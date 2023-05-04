@@ -1,0 +1,36 @@
+.transactionHistory {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    max-height: 160px;
+    width: 360px;
+    overflow-y: scroll;
+}
+
+.transactionHeader, .transactionRows {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.td_head {
+    padding: 12px 4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: rgb(153, 126, 177);
+    color: #fff;
+  }
+  
+  .tr_head {
+    height: 40px;
+    border: rgb(112, 84, 136);
+    
+  }
+  
+  .td_item {
+    padding: 8px 0;
+    font-size: 10px;
+    background-color: #fff;
+    color: #666;
+  }
